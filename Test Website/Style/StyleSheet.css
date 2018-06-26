@@ -1,0 +1,164 @@
+*,
+*:before,
+*:after {
+
+	box-sizing: inherit;
+
+}
+
+html {
+
+	box-sizing: border-box;
+
+}
+
+body{
+	font-family: "Arial", Verdana, sans-serif;
+	width: 100%;
+	font-size: 100%;
+	background-color: #A9A9A9;
+}
+
+img {
+
+	max-width: 100%;
+
+}
+
+
+h1{
+	font-size: 2.5em;
+}
+
+ol{
+	margin: 0;
+    padding: 0;
+	list-style-type: none;
+}
+
+li a{
+	width: 100%;
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li:hover{
+	background-color: #DCDCDC;
+}
+
+.o-lyt{
+	display: block;
+	margin-left: -20px;
+	padding-left: 0;
+}
+
+.o-lyt__item{
+	width: 100%;
+	display: inline-block;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+.nav{
+	display: block;
+	margin-right: -20px;
+	padding-left: 0;
+	background-color: #FFF;
+	width:100%;
+}
+
+.nav__item {
+	border-radius: 30px;
+	text-align: center;
+	width: 24%;
+	display: inline-block;
+	padding: 20px;
+	vertical-align: middle;
+}
+
+.o-lyt--flush{
+
+	margin-left: 0;
+
+}
+
+.o-lyt--flush > .o-lyt__item{
+
+	padding-left:0;
+
+}
+
+.product-list__item + .product-list__item{
+
+	border-top: 1px solid #606060;
+
+}
+
+
+@media screen and (min-width:768px){
+
+	.product__image,
+	.product__price{
+		width: 30%;
+	}
+
+	.product__content,
+	.product__info{
+		width: 70%;
+	}
+
+	.wrapper{
+		width: 80%;
+		vertical-align: middle;
+		margin-left: 10%;
+	}
+}
+
+
+
+.wrapper{
+	background-color: #fff;
+	margin-top: 0;
+	border: auto;
+	padding: 5%;
+	padding-top: 0%;
+}
+
+.header {
+	padding-top:5px;
+	border:auto;
+	clear: left;
+}
+
+
+.image {
+	display: inline-block;
+	align-items: center;
+	margin: auto;
+	border: auto;
+	max-width: 50%;
+	max-height: 50%;
+}
+
+.main_body {
+	text-align: left;
+	font-size: 0.75em;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    border-radius:30px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+	background-color: #DCDCDC;
+}
